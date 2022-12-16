@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* p {
+            border: 2px solid black;
+            margin: 10px;
+            width: 400px;
+            height:400px;
+            font-size: 160%;
+            } */
+       
+    </style>
+    <title>DAWAT - World's biggest Platform</title>
+    
+</head>
+<!-- <img src="" alt="Flowers in Chania"> -->
+<body style="background-color:rgb(164, 197, 189);">
+    <h1 style="font-size:60px;"  align ="center">DAWAT</h1>
+<!-- <h1 align ="center"> DAWAT </h1> -->
+
+<div align="center">
+
+<form style="width:250px;height:600px;">
+    
+    <h2 style="color:blue;">What you want to do ? </h2>
+    <div align="left">
+    <input type="radio" id="buy" name="fav_language" value="BUY">
+    <label for="buy">BUY</label><br>
+    <input type="radio" id="sell" name="fav_language" value="SELL">
+    <label for="sell">SELL</label><br>
+    </div>
+    <br>
+    <input type="submit" value="Submit">
+    
+</form> 
+
+</div>
+</body>
+</html> 
