@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMS </title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Personal information:</legend>
+        First Name : <br>
+        <input type ="text" name="firstname" rows="40"><br>
+        Last Name  : <br>
+        <input type ="text" name="lastname"><br>
+        Date of Birth : <br>
+        <input type ="date" name="dob"><br>
+        Email :<br>
+        <input type ="email" name="email"><br>
+        <!--Upload Photo :<br>
+        <input type ="image" name="photo"><br> -->
+        Choose Gender : <br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+        <br>
+        <br>
+        
+        <input type ="button" value = "SUBMIT" onclick="alert('NOT YET LINKED TO PHP')"></button>
+        <br>
+        <br><input list="browsers" name="browser">
+        <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.
+            
+        </textarea>
+
+        <input type="submit" value="Submit">
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html> 
