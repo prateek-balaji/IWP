@@ -8,13 +8,20 @@ AUTHOR - PRATEEK BALAJI
 DATE - 16-12-2022
 DESCRIPTION - Resume Page with HTML
 -//-->
-<body style="background-color:rgb(212, 231, 185);">
+<body style="background-color:rgb(167, 219, 94);">
     <img src="prateek.jpeg" alt="Photo" height=130px align ="right">
     <h2 >Name : Prateek Balaji </h2>
 
     <h3 >E-Mail : <a href="mailto:prateekbalaji31@gmail.com"> prateekbalaji31@gmail.com</a> </h3>
     
     <h3 >LinkedIn : <a href="https://www.linkedin.com/in/prateek-balaji/">prateekbalaji</a> </h3>
+    <h2> Address </h2>
+    <p>
+      Nirmala Kunj Appt. <br>
+      Mahesh Nagar <br>
+      Patna, Bihar, India<br>
+    </p>
+
 
     <h3> About Me: </h3>
     <p>
@@ -27,7 +34,7 @@ DESCRIPTION - Resume Page with HTML
     </p>
     <h3> Educational Qualification: </h3>
     <table border = "1">
- 
+      
         <tr >
           <th>Year of Passing </th>
           <th>Qualification </th>
@@ -36,24 +43,24 @@ DESCRIPTION - Resume Page with HTML
         </tr>
 
     
-        <tr>
-          <td>2017</td>
-          <td>Matriculate (10th) &nbsp;&nbsp;</td>
-          <td>Open Minds, Danapur &nbsp;</td>
-          <td>10CGPA</td>
+        <tr >
+          <td align="center">2017</td>
+          <td align="center">Matriculate (10th) </td>
+          <td align="center">Open Minds, Danapur &nbsp;</txd>
+          <td align="center" >10 CGPA</td>
         
         </tr>
         <tr>
-            <td>2019</td>
-            <td>Intermediate (12th) </td>
-            <td>Indian Public School  &nbsp; &nbsp;</td>
-            <td>92%</td>
+            <td align="center">2019</td>
+            <td align="center">Intermediate (12th) </td>
+            <td align="center">Indian Public School </td>
+            <td align="center">92%</td>
           </tr>
           <tr>
-            <td>2024</td>
-            <td>B.Tech CSE &nbsp; &nbsp;&nbsp;</td>
-            <td>VIT, Vellore</td>
-            <td>8.6 GPA</td>
+            <td align="center">2024</td>
+            <td align="center">B.Tech CSE &nbsp; &nbsp;&nbsp;</td>
+            <td align="center">VIT, Vellore</td>
+            <td align="center">8.6 GPA</td>
           </tr>
         
         
@@ -62,9 +69,9 @@ DESCRIPTION - Resume Page with HTML
 
 <!-- <h1 align ="center"> DAWAT </h1> -->
 
-<h2> Useful Links : </h2>
-<h3 >GITHUB : <a href="https://github.com/prateek-balaji"> <img src="prateek.jpeg" alt="Photo" height=25px > </a> </h3>
-
+<h2> My hobbies : </h2>
+<h3 > Coding :  <a href="https://github.com/prateek-balaji">  Click here   </a> </h3>
+<h3 > Martial Arts: <a href="https://en.wikipedia.org/wiki/Karate">  Click here   </a> </h3>
 
 </div>
 </body>
