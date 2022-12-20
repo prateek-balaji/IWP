@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title>Activity 2</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend> Informations: </legend>
+First Name :<br>
+<input type ="text" name ="firstname"> <br> <br>
+Last Name :<br>
+<input type ="text" name ="lastname">
+<br><br>
+Email : <br>
+<input type ="email" name ="email">
+<br><br>
+Password : <br>
+<input type ="password" name ="password">
+<br>
+<br>
+Date of Birth : <br>
+<input type ="date" name ="dob">
+<br>
+<br>
+Choose Gender : <br>
+<input type ="radio" name ="gender" value = "male" checked> Male <br>
+<input type ="radio" name ="gender" value = "female"> Female <br>
+<input type ="radio" name ="gender" value = "other"> Other <br>
+<br>
+VIT Campus : <br>
+<input type ="checkbox" name ="campus" value = "vellore" checked> Vellore <br>
+<input type ="checkbox" name ="campus" value = "chennai"> Chennai <br>
+<input type ="checkbox" name ="campus" value = "bhopal"> Bhopal <br>
+<br><br>
+Department :
+<input list = "department" name ="department">
+<datalist id ="department">
+<option value="SCOPE">
+<option value="SITE">
+<option value="SENSE">
+</datalist><br><br>
+Identity card Upload: <br>
+<input type ="file" name ="idenity" > <br><br>
+<textarea name="message" rows="15" cols="30"> Write your message here.
+</textarea>
+<br>
+<br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
