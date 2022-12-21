@@ -1,0 +1,31 @@
+Css can be of three types
+i. External 
+ii. Internal 
+iii. Inline
+
+For course point of view wer will be using internal css and for industry point of view external css is preffered.
+
+Eg.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS </title>
+        <!--<link rel="stylesheet" href="styles.css">
+        -->
+        <style>
+            body{
+            background-color: greenyellow;
+            }
+            h1 {
+            color: blue
+            }
+            p{
+            color: red
+            }
+        </style>
+    </head>
+    <body>
+        <h1> H1 Heading</h1>
+        <p> P Paragraph</p>
+    </body>
+</html>
